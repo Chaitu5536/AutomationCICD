@@ -42,6 +42,8 @@ public class BaseTest {
 		String browserName = System.getProperty("browser"); //!=null ? System.getProperty("browser") : prop.getProperty("browser");
 //		String browserName = prop.getProperty("browser");
 		
+//		this is the demo comment
+		
 		if(browserName.contains("chrome")) {
 			
 			ChromeOptions options = new ChromeOptions();
