@@ -35,11 +35,11 @@ public class BaseTest {
 	
 	public WebDriver initializeDriver() throws IOException {
 		
-		Properties prop = new Properties();
-		FileInputStream fis = new FileInputStream("C:\\Users\\chait\\eclipse_java_01_selenium\\PractiseProject1\\src\\main\\java\\krishna\\Resources\\GlobalData.properties");
-		prop.load(fis);
+//		Properties prop = new Properties();
+//		FileInputStream fis = new FileInputStream("C:\\Users\\chait\\eclipse_java_01_selenium\\PractiseProject1\\src\\main\\java\\krishna\\Resources\\GlobalData.properties");
+//		prop.load(fis);
 		
-		String browserName = System.getProperty("browser")!=null ? System.getProperty("browser") : prop.getProperty("browser");
+		String browserName = System.getProperty("browser"); //!=null ? System.getProperty("browser") : prop.getProperty("browser");
 //		String browserName = prop.getProperty("browser");
 		
 		if(browserName.contains("chrome")) {
