@@ -46,9 +46,9 @@ public class BaseTest {
 			
 			ChromeOptions options = new ChromeOptions();
 			WebDriverManager.chromedriver().setup();
-			if(browserName.contains("headless")) {
-			options.addArguments("headless");
-			}
+//			if(browserName.contains("headless")) {
+//			options.addArguments("headless");
+//			}
 			driver = new ChromeDriver(options);
 //			driver.manage().window().setSize(new Dimension(1440,900)); //used to set the browser screen to max 
 		}
