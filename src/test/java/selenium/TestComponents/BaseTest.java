@@ -44,6 +44,8 @@ public class BaseTest {
 		
 //		this is the demo comment
 		
+//		this is the second demo comment
+		
 		if(browserName.contains("chrome")) {
 			
 			ChromeOptions options = new ChromeOptions();
